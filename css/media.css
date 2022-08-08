@@ -1,0 +1,154 @@
+@media (max-width:1750px){
+    h3 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+}
+
+
+
+ @media (max-width:1200px){
+    .continer3 h3 {
+        text-align: center;
+        margin-top: 0%;
+        font-size: 2.5vw;
+        color: white;
+        font-weight: 700;
+    }
+    .form h3 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .continer2 {
+        width: 100%;
+        display: none;
+    }
+}
+@media (max-width:1130px){
+    .continer4 button {
+        width: 20vw;
+    }
+    form button {
+        width: 20vw;
+    }
+}
+input[type="email"] {
+    width: 30vw;
+    margin: 0 auto;
+}
+@media (max-width:700px){
+    .header {
+        height: 10vh;
+    }
+    .nav_a {
+        margin-left: 20px;
+    }
+    #my_blok {
+        display: none;
+        width: 50%;
+        height: 70vw;
+        background: #151515;
+        color: white;
+    }
+    .janr {
+       display: flex;
+       flex-direction: column;
+    }
+    .bloc_janr {
+        display: flex;
+        margin: auto;
+        align-items: start;
+        padding-top: 30%;
+        margin-top: -10%;
+        height: 180px;
+    }
+    .bloc_janr a {
+        font-size: 2.5vw;
+    }
+    .spisok_filmov1 {
+        display: none;
+    }
+    .poster {
+        width: 20%;
+        height: 10vw;
+    }
+    .continer2 {
+        width: 100%;
+        display: none;
+        margin: 5% auto;
+    }
+    .continer4 button {
+        width: 20vw;
+        height: 5vh;
+    }
+    .continer5 {
+        margin-top: 10%;
+    }
+    h3 {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 3vw;
+        color: white;
+        font-weight: 700;
+    }
+    .form h2 {
+        font-size: 3vw;
+    }
+    .forma {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #495161;
+        width: 55vw;
+        height: 45vw;
+    }
+    .form {
+        width: 53vw;
+        height: 43vw;
+        background: #0F1726;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .form h4 {
+        font-size: 2vw;
+    }
+    .forma_podpis .foto {
+        display: none;
+    }
+    form button {
+        width: 25vw;
+        height: 8vw;
+    }
+    input[type="email"] {
+        background: none;
+        border: none;
+        margin: 0 auto;
+        width: 40vw;
+        outline: none;
+        color: white;
+        border-bottom: 2px solid #4A6ECB;
+    }
+    .footer img {
+        width: 20vw;
+        display: block;
+        margin: 5% auto;
+    }
+}
+@media (max-width:693px){
+    .nav_a {
+        margin-top: 20px;
+    }
+    form button {
+        margin: 4% auto;
+    }
+}
+
+@media (max-width:680px){
+    #my_blok {
+        height: 80vw;
+    }
+}
