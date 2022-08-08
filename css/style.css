@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+}
+
+.nav_a a{
+    margin-right: 50px;
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.continer{
+    width: 100%;
+}
+
+.continer img{
+    width: 100%;
+    background-size: cover;
+}
+
+.continer1{
+    width: 100%;
+    margin: 5% auto;
+}
+
+.button button{
+    border: none;
+    background: none;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+#my_blok{
+    display: none;
+    width: 100%;
+    height: 20vw;
+    background: #151515;
+    color: white;
+}
+
+.janr{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloc_janr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+}
+
+.bloc_janr a{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pole_poisk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80vw;
+    height: 10vw;
+    background-color: #3C3C3C;
+}
+
+.pole_poisk h2{
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+
+.pole_poisk input[type="text"]{
+    background: #ACACAC;
+    border: none;
+    outline: none;
+    height: 4vw;
+    width: 50vw;
+    font-size: 1.5vw;
+}
+
+.pole_poisk a{
+    margin-left: 20px;
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bloc img{
+    width: 25vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.carusel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.slider{
+    width: 70%;
+    height: 30vw;
+    border: 2px solid #6B6B6B;
+    margin-left: 10%;
+}
+
+.slider img{
+    width: 24%;
+    margin-left: 5px;
+    height: auto;
+}
+
+.continer3 h3{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 700;
+}
+
+.spisok{
+    margin-top: 5%;
+}
+
+.spisok2{
+    margin-top: 20%;
+}
+
+.poster{
+    width: 14%;
+    height: 10vw;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+}
+
+.spisok_filmov1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.spisok_filmov2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.continer4{
+    display: flex;
+    justify-content: center;
+    margin: 20% auto;
+}
+
+.continer4 .box{
+    margin-top: 10%;
+}
+
+.continer4 .box2 img{
+    width: 40vw;
+}
+
+.continer4 .box3_foto img{
+    width: 40vw;
+}
+
+.continer4 h3{
+    margin-top: 15%;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+
+.continer4 button{
+    width: 10vw;
+    height: 5vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #151515;
+    background: #FFBD59;
+    border-bottom: 10px solid #876C25;
+    margin-top: 5%;
+}
+
+.foto_button img{
+    margin-top: 3%;
+    width: 40vw;
+}
+
+.continer4 .box2{
+    margin-left: 10%;
+}
+
+.continer4 .box2 img{
+    margin-top: 5%;
+}
+
+.continer4 .box2 h3{
+    margin-top: 15%;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 700;
+    text-align: end;
+}
+
+.continer4 .box3 h3{
+    margin-top: 15%;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 700;
+    text-align: end;
+}
+
+.box3{
+    margin-top: 30%;
+}
+
+.box3_foto{
+    position: relative;
+}
+
+.box3_foto .telefon{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+ 
+}
+
+.continer5{
+    margin-top: -10%;
+}
+
+.forma_podpis{
+    display: flex;
+    justify-content: center;
+}
+
+.forma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #495161;
+    width: 35vw;
+    height: 35vw;
+}
+
+.form{
+    width: 33vw;
+    height: 33vw;
+    background: #0F1726;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.form h4{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form h2{
+    font-size: 2vw;
+    color: #FFBD59;
+    font-weight: 700;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.forma_podpis .foto{
+    width: 25%;
+}
+
+.forma_podpis .foto img{
+    width: 100%;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"]{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid #4A6ECB;
+}
+
+form button{
+    width: 10vw;
+    height: 5vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #151515;
+    background: #FFBD59;
+    border-bottom: 10px solid #876C25;
+    margin: 10% auto;
+}
+
+.continer5 form h3{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 700;
+}
+
+.footer{
+    width: 100%;
+    height: 20vw;
+    background: #2F2F2F;
+}
+
+.footer img{
+    display: block;
+    margin: 5% auto;
+}
+
+.nav_a{
+    display: flex;
+    justify-content: center;
+}
